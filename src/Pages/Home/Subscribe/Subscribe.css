@@ -1,0 +1,20 @@
+.form-control::placeholder {
+    color: white !important;
+    opacity: .8;
+    }
+
+.inputDiv{
+        width: 50%;
+        
+    }
+@media only screen and (max-width: 768px){
+    .subscribe{
+        padding: 20px 0px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .subscribe{
+        padding-top: 112px;
+        padding-bottom: 120px;
+    }
+}

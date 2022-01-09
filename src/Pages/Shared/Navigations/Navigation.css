@@ -1,0 +1,24 @@
+/* navigation section style */
+#nav-dropdown-dark-example{
+    color: white;
+  }
+
+
+  /* button linearGradient */
+.navButton{
+    background-image: linear-gradient(to right,  #1199FA, #11D0FA );
+  }
+ 
+ /* media query  */
+ @media only screen and (max-width: 1020px) {
+    #divider1{
+        display: none;
+    
+      }
+  }  
+ @media only screen and (max-width: 1020px) {
+    #divider2{
+        display: none;
+    
+      }
+  }  

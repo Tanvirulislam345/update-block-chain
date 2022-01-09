@@ -1,0 +1,14 @@
+/* .bannerStyle{
+    background-image: linear-gradient(to bottom right, #40366A 0%, #0B172E 40%);
+}
+.bannerStyle2{
+    background-image: linear-gradient(to bottom left, #40366A 0%, #0B172E 40%);
+} */
+
+.bannerStyle{
+    background-image: url('https://i.ibb.co/gPNJ5Sc/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}

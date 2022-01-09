@@ -1,0 +1,19 @@
+/* video section style  */
+.carousel-indicators [data-bs-target]{
+    display: none;
+  }
+  .carousel-caption {
+    top: 24%;
+  
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+      display: none !important;
+  }
+ 
+  /* media query  */
+  @media only screen and (max-width: 600px) {
+    .carousel-caption {
+        top: 17%;
+    
+      }
+  }

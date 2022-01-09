@@ -23,9 +23,11 @@ const Navigations = () => {
         style={{ paddingTop: "40px" }}
       >
         <Container >
+
           <Navbar.Brand href="#home">
             <img src={brandlogo} alt="" width="174px" />
           </Navbar.Brand>
+          
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav

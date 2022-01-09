@@ -1,10 +1,45 @@
+.teamHeading{
+    max-width: 432px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+.teamHeading p{
+    padding-top: 16px;
+    padding-bottom: 65px;
+    color: #9495BE;
+}
+
+.meetingMember{
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.meetingCard{
+    color: red;
+    padding: 31px 25px;
+    height: 247px;
+}
+.meetingCard img{
+    max-width: 108px;
+    margin: auto;
+
+}
+.meetingCard h6{
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px){
-    .teamHeader{
+    .teamHeading{
         padding-top: 50px;
     }
 }
 @media only screen and (min-width: 768px){
-    .teamHeader{
+    .teamHeading{
         padding-top: 96px;
     }
 }

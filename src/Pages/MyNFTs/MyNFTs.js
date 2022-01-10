@@ -7,13 +7,13 @@ import ShowNFT from './ShowNFT/ShowNFT';
 
 const MyNFTs = () => {
     return (
-        <div className='App' style={{ backgroundColor: '#F7F7F9' }}>
-            <InnerNavigation></InnerNavigation>
+        <div style={{ backgroundColor: '#F7F7F9' }}>
+            {/* <InnerNavigation></InnerNavigation>
             <Container className='d-flex'>
                 <SideNavitation></SideNavitation>
-                <ShowNFT></ShowNFT>
-            </Container>
-
+                
+            </Container> */}
+            <ShowNFT></ShowNFT>
             <CreateNFT></CreateNFT>
         </div>
     );

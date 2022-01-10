@@ -63,14 +63,14 @@ const CreateNFT = () => {
         </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="row">
-            <div className="col-md-6 col-sm-12 d-flex " >
-              <Card id="preview" style={{ width: "492px" }}>
+            <div className="col-md-6 col-sm-12" >
+              <Card id="preview" style={{ width: "100%", height: '505px', margin: '10px' }}>
 
               </Card>
             </div>
             <div className="col-md-3 col-sm-12">
               <div>
-                <Card style={{ padding: "20%" }} className="mb-4">
+                <Card style={{ padding: "20%", margin: '10px' }}>
                   <div
                     style={{
                       display: "flex",
@@ -93,7 +93,7 @@ const CreateNFT = () => {
                     <p className="mb-0">Add Image</p>
                   </div>
                 </Card>
-                <Card style={{ padding: "20%" }} className="mb-4">
+                <Card style={{ padding: "20%", margin: '10px' }}>
                   <div
                     style={{
                       display: "flex",
@@ -108,7 +108,7 @@ const CreateNFT = () => {
                     <p className="mb-0">Add Sticker</p>
                   </div>
                 </Card>
-                <Card style={{ padding: "20%" }} className="">
+                <Card style={{ padding: "20%", margin: '10px' }}>
                   <div
                     style={{
                       display: "flex",
@@ -127,7 +127,7 @@ const CreateNFT = () => {
             </div>
             <div className="col-md-3 col-sm-12">
               <div>
-                <Card style={{ padding: "20%" }} className="mb-4">
+                <Card style={{ padding: "20%", margin: '10px' }}>
                   <div
                     style={{
                       display: "flex",
@@ -142,7 +142,7 @@ const CreateNFT = () => {
                     <p className="mb-0">Add Effect</p>
                   </div>
                 </Card>
-                <Card style={{ padding: "20%" }} className="mb-4">
+                <Card style={{ padding: "20%", margin: '10px' }}>
                   <div
                     style={{
                       display: "flex",
@@ -157,7 +157,7 @@ const CreateNFT = () => {
                     <p className="mb-0">Add Text</p>
                   </div>
                 </Card>
-                <Card style={{ padding: "20%" }} className="">
+                <Card style={{ padding: "20%", margin: '10px' }}>
                   <div
                     style={{
                       display: "flex",

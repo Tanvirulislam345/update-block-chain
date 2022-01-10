@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Col, Form, Row, Spinner } from 'react-bootstrap';
+import { Button, Card, Col, Form, Row, Spinner } from 'react-bootstrap';
 import logo from '../../../Images/nfticons/logo.png';
 import pic from '../../../Images/nfticons/pic.png';
 import share from '../../../Images/nfticons/share.png';
@@ -95,14 +95,26 @@ const ShowNFT = () => {
                 </div>
 
                 <div style={{ marginTop: '35px' }}>
-                    <Row xs={1} sm={1} md={3} style={{ marginButton: '35px' }}>
+                    <Row xs={1} sm={1} md={3}
+                        className='row g-3'
+                        style={{ marginButton: '35px' }}>
                         {
                             items.map(item => <Col
                                 key={item._id}
                             >
-                                <img src={`data:image/jpeg;base64, ${item.file}`}
-                                    style={{ width: '284px', height: '217px' }}
-                                    alt="" />
+                                <Card>
+                                    <Card.Img variant="top" src={`data:image/jpeg;base64, ${item.file}`} height="217px" width="100%" />
+                                    <Card.Body style={{ padding: '24px 20px' }}>
+                                        <small>First Collection</small>
+                                        <h5 className='fw-bold'>Whip Sport 2008</h5>
+                                        <div
+                                            style={{ display: 'flex', justifyContent: 'space-between', paddingTop: '46px' }}
+                                        >
+                                            <small><i className="far fa-eye pe-3"></i>views(20)</small>
+                                            <i className="fas fa-download"></i>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
                             </Col>)
                         }
                     </Row>
